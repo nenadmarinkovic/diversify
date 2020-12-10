@@ -1,0 +1,38 @@
+{
+  "name": "avuteq-project",
+  "private": true,
+  "description": "Avuteq Project",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.11.1",
+    "gatsby": "^2.25.3",
+    "gatsby-plugin-react-head": "^1.1.0",
+    "gatsby-plugin-styled-components": "^3.4.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-head": "^3.4.0",
+    "react-reveal": "^1.2.2",
+    "react-scroll-into-view": "^1.8.2",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "prettier": "2.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nenadmarinkovic/project"
+  },
+  "bugs": {
+    "url": "https://github.com/nenadmarinkovic/project/issues"
+  }
+}
