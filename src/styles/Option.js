@@ -48,7 +48,7 @@ export const CenteredTitle = styled.div`
   }
 `;
 
-export const OptionItem = styled.a`
+export const OptionItem = styled.div`
   width: 50%;
   transition: 0.5s;
   @media (max-width: 840px) {
