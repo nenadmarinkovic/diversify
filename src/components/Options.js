@@ -25,8 +25,6 @@ function Option() {
         <SubText>- AVUTEQ TEAM -</SubText>
         <Centered id="options">Choose your option:</Centered>
         <FlexContainer>
-
-          
           <OptionItem
             onMouseOver={() => setHovered(true)}
             onMouseLeave={() => setHovered(false)}

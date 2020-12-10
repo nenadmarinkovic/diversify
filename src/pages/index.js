@@ -4,7 +4,7 @@ import GlobalStyle from "../styles/globalStyles";
 import Header from "../components/Header";
 import Banner from "../components/Banner";
 import About from "../components/About";
-import Option from "../components/Option";
+import Options from "../components/Options";
 import Footer from "../components/Footer";
 import Project from "../components/Project";
 
@@ -19,7 +19,7 @@ export default function Home() {
       <Header />
       <Banner />
       <About />
-      <Option />
+      <Options />
       <Project />
       <Footer />
     </>
