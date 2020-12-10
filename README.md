@@ -1,3 +1,3 @@
-<h1 align="center">
-Avuteq project 🚀
+<h1 align="left">
+Diversify 🚀
 </h1>

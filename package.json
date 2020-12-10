@@ -1,7 +1,7 @@
 {
-  "name": "avuteq-project",
+  "name": "diversify",
   "private": true,
-  "description": "Avuteq Project",
+  "description": "Diversify",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {

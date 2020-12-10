@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Title>Diversify by Avuteq</Title>
-      <Meta name="description" content="Avuteq Project" />
+      <Meta name="description" content="Diversify" />
       <GlobalStyle />
       <Header />
       <Banner />

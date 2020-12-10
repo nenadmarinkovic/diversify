@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Title>For Companies</Title>
-      <Meta name="description" content="Avuteq Project" />
+      <Meta name="description" content="Diversify" />
       <GlobalStyle />
       <HeaderForms />
       <FormCompanies />
