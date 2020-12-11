@@ -39,7 +39,7 @@ function Banner() {
           <Illustration>
             <SVG
               width="562"
-              height="493"
+             
               viewBox="0 0 662 593"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"

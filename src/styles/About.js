@@ -26,9 +26,7 @@ export const AboutContainer = styled.div`
   margin-top: -20px;
   padding-top: 80px;
   padding-bottom: 120px;
-  // @media (max-width: 1240px) {
-  //   margin-right: 40px;
-  // }
+ 
 
   @media (max-width: 580px) {
     margin-top: -60px;

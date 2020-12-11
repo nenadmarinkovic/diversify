@@ -3,10 +3,6 @@ import styled from "styled-components";
 export const Wrap = styled.div`
   padding-top: 40px;
   padding-bottom: 20px;
-
-  // @media (max-width: 1240px) {
-  //   margin-right: 40px;
-  // }
 `;
 
 export const FlexContainer = styled.div`
@@ -73,6 +69,7 @@ export const SVG = styled.svg`
   @media (max-width: 540px) {
     width: 70%;
     padding-bottom: 0;
+    margin-right: 0px;
   }
 `;
 

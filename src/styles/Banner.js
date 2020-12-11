@@ -44,17 +44,14 @@ export const Illustration = styled.div`
   //   margin-right: 40px;
   // }
 
-  // @media (max-width: 840px) {
-  //   margin-top: -20px;
-  //   margin-right: 40px;
-  //   margin-left: 60px;
-  // }
+  @media (max-width: 840px) {
+    margin-top: 10px;
+    margin-right: 40px;
+    margin-left: 60px;
+    padding-bottom: 40px;
+  }
 
-  // @media (max-width: 640px) {
-  //   margin-top: -80px;
-  //   margin-right: 40px;
-  //   margin-left: 40px;
-  // }
+
 `;
 
 export const Text = styled.div`
@@ -66,13 +63,13 @@ export const Text = styled.div`
 
   @media (max-width: 840px) {
     text-align: center;
-    width: 80%;
+    width: 100%;
   }
 `;
 
 export const Button = styled.button`
-  background-color: #ED572F;
-  border: 2px solid #ED572F;
+  background-color: #ed572f;
+  border: 2px solid #ed572f;
   font-size: 14px;
   border-radius: 5px;
   font-weight: bold;
@@ -80,12 +77,12 @@ export const Button = styled.button`
   margin-top: 35px;
   text-transform: uppercase;
   transition: 0.3s;
-  box-shadow: 0 10px 30px 0 rgba(0,0,0,.2);
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
   padding: 15px;
   :hover {
     cursor: pointer;
-    border: 2px solid #ED572F;
-    box-shadow: 0 0 30px 0 rgba(0,0,0,.2)
+    border: 2px solid #ed572f;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
   }
   @media (max-width: 1240px) {
     margin-bottom: 30px;
@@ -102,6 +99,7 @@ export const MainText = styled.div`
 
   @media (max-width: 840px) {
     text-align: center;
+    width: 100%;
   }
 
   @media (max-width: 560px) {
@@ -116,6 +114,7 @@ export const SubText = styled.div`
 
   @media (max-width: 840px) {
     text-align: center;
+    width: 100%;
   }
 
   @media (max-width: 560px) {
