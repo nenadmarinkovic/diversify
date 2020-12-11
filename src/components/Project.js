@@ -10,7 +10,7 @@ function Project() {
       <Text>
         <CenteredText>
           <LinkTo href="https://avuteq.com" target="_blank" rel="noreferrer">
-            <img className="logo-image" src={logo} alt="Company Logo"></img>
+            <img className="logo-image" src={logo} alt="Company Logo"/>
           </LinkTo>
         </CenteredText>
         <SmallerText>

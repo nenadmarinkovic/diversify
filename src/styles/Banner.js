@@ -35,7 +35,8 @@ export const SVG = styled.svg`
 
   @media (max-width: 370px) {
     width: 100%;
-    margin-top: -30px;
+    padding-bottom: 40px;
+    margin-top: -10px;
   }
 `;
 
