@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "gatsby";
 import {
   Wrap,
@@ -8,7 +8,9 @@ import {
   MenuContainer,
   MenuItem,
   MenuItemLink,
+  MenuHamburger,
 } from "../styles/Header";
+import Menu from "../components/Menu";
 import ScrollIntoView from "react-scroll-into-view";
 
 function Header() {
@@ -33,6 +35,7 @@ function Header() {
                 Get connected
               </ScrollIntoView>
             </MenuItem>
+
             <MenuItemLink
               href="https://avuteq.com"
               target="_blank"
@@ -41,6 +44,10 @@ function Header() {
               Project by Avuteq
             </MenuItemLink>
           </MenuContainer>
+
+          <MenuHamburger>
+            <Menu />
+          </MenuHamburger>
         </FlexContainer>
       </div>
     </Wrap>

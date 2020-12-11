@@ -33,7 +33,7 @@ export const Logo = styled.div`
 export const Circle = styled.div`
   height: 20px;
   width: 20px;
-  background-color: #ED572F;
+  background-color: #ed572f;
   border-radius: 50%;
   display: inline-block;
   margin-right: 10px;
@@ -42,6 +42,16 @@ export const Circle = styled.div`
 export const MenuContainer = styled.div`
   display: flex;
   align-items: center;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+`;
+
+export const MenuHamburger = styled.div`
+  @media (min-width: 768px) {
+    display: none;
+  }
 `;
 
 export const MenuItem = styled.div`
@@ -50,7 +60,7 @@ export const MenuItem = styled.div`
   font-weight: bold;
   transition: 0.3s;
   :hover {
-    color: #ED572F;
+    color: #ed572f;
     cursor: pointer;
   }
 `;
@@ -61,7 +71,7 @@ export const MenuItemLink = styled.a`
   font-weight: bold;
   transition: 0.3s;
   :hover {
-    color: #ED572F;
+    color: #ed572f;
     cursor: pointer;
   }
 `;
