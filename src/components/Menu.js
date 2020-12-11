@@ -17,7 +17,7 @@ const StyledMenu = styled.nav`
   right: 0;
   transition: transform 0.3s ease-in-out;
 `;
-const MenuItem = styled.a`
+const MenuItem = styled.div`
   color: black;
   margin-top: 30px;
   :hover {

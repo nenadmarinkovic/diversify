@@ -4,9 +4,9 @@ export const Wrap = styled.div`
   padding-top: 40px;
   padding-bottom: 20px;
 
-  @media (max-width: 1240px) {
-    margin-right: 40px;
-  }
+  // @media (max-width: 1240px) {
+  //   margin-right: 40px;
+  // }
 `;
 
 export const FlexContainer = styled.div`

@@ -69,8 +69,22 @@ html {
     width: 23%
   }
 
+  .no-mr {
+    margin-right: 0 !important;
+   
+
+    @media (max-width: 840px) {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+      margin-top: 30px;
+     }
+  }
+
+
+
   .no-ml {
     margin-left: 0 !important;
+   
 
     @media (max-width: 840px) {
       margin-left: 0 !important;

@@ -40,29 +40,29 @@ export const SVG = styled.svg`
 `;
 
 export const Illustration = styled.div`
-  @media (max-width: 1240px) {
-    margin-right: 40px;
-  }
+  // @media (max-width: 1240px) {
+  //   margin-right: 40px;
+  // }
 
-  @media (max-width: 840px) {
-    margin-top: -20px;
-    margin-right: 40px;
-    margin-left: 60px;
-  }
+  // @media (max-width: 840px) {
+  //   margin-top: -20px;
+  //   margin-right: 40px;
+  //   margin-left: 60px;
+  // }
 
-  @media (max-width: 640px) {
-    margin-top: -80px;
-    margin-right: 40px;
-    margin-left: 40px;
-  }
+  // @media (max-width: 640px) {
+  //   margin-top: -80px;
+  //   margin-right: 40px;
+  //   margin-left: 40px;
+  // }
 `;
 
 export const Text = styled.div`
   width: 50%;
-  @media (max-width: 1240px) {
-    width: 60%;
-    margin-right: 30px;
-  }
+  // @media (max-width: 1240px) {
+  //   width: 60%;
+  //   margin-right: 30px;
+  // }
 
   @media (max-width: 840px) {
     text-align: center;

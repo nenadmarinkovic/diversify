@@ -18,9 +18,9 @@ export const FlexContainer = styled.div`
   color: black;
   padding-bottom: 15px;
 
-  @media (max-width: 1240px) {
-    margin-right: 40px;
-  }
+  // @media (max-width: 1240px) {
+  //   margin-right: 40px;
+  // }
 `;
 
 export const Logo = styled.div`
