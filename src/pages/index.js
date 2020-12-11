@@ -14,6 +14,7 @@ export default function Home() {
   return (
     <>
       <Title>Diversify by Avuteq</Title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <Meta name="description" content="Diversify" />
       <GlobalStyle />
       <Header />

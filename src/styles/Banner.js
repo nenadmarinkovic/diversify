@@ -19,48 +19,39 @@ export const BannerContainer = styled.div`
 export const SVG = styled.svg`
   margin-top: 50px;
   width: 100%;
+
   @media (max-width: 1240px) {
     margin-top: 30px;
   }
 
   @media (max-width: 840px) {
-    width: 100%;
     margin-top: 60px;
   }
 
   @media (max-width: 540px) {
-    width: 100%;
     margin-top: 20px;
   }
 
   @media (max-width: 370px) {
-    width: 100%;
     padding-bottom: 40px;
     margin-top: -10px;
   }
 `;
 
 export const Illustration = styled.div`
-  // @media (max-width: 1240px) {
-  //   margin-right: 40px;
-  // }
+  width: 50%;
 
   @media (max-width: 840px) {
     margin-top: 10px;
     margin-right: 40px;
     margin-left: 60px;
     padding-bottom: 40px;
+    width: 100%;
   }
-
-
 `;
 
 export const Text = styled.div`
   width: 50%;
-  // @media (max-width: 1240px) {
-  //   width: 60%;
-  //   margin-right: 30px;
-  // }
 
   @media (max-width: 840px) {
     text-align: center;
