@@ -26,6 +26,7 @@
     "styled-components": "^5.2.1"
   },
   "devDependencies": {
+    "image-webpack-loader": "^7.0.1",
     "prettier": "2.1.2"
   },
   "repository": {
