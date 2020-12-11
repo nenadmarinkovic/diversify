@@ -31,5 +31,5 @@ export const SmallerText = styled.div`
 
 export const LinkTo = styled.a`
   color: black;
-  text-decoraation: none;
+  text-decoration: none;
 `;
