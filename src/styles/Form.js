@@ -6,8 +6,9 @@ export const FlexContainer = styled.main`
   flex-direction: row-reverse;
   margin-bottom: -120px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 960px) {
     flex-direction: column;
+    align-items: center;
   }
 `;
 
@@ -16,6 +17,10 @@ export const FormText = styled.div`
   font-size: 32px;
   text-align: center;
   line-height: 1.5;
+
+  @media (max-width: 768px) {
+    font-size: 23px;
+  }
 `;
 
 export const FlexListText = styled.div`
@@ -48,7 +53,7 @@ export const MainForm = styled.main`
   font-size: 21px;
   line-height: 1.65;
 
-  @media (max-width: 768px) {
+  @media (max-width: 960px) {
     width: 100%;
   }
 `;
@@ -151,6 +156,17 @@ export const Copyright = styled.span`
 `;
 
 export const SVG = styled.svg`
-  margin-top: -100px;
+  margin-top: -10px;
   transform: scaleX(-1);
+  margin-left: 40px;
+
+  @media (max-width: 960px) {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  @media (max-width: 380px) {
+    margin-top: -80px;
+  }
 `;

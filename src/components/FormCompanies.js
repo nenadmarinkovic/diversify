@@ -229,7 +229,7 @@ export default function ContactForm() {
             </MainForm>
             <SVG
               width="525"
-              height="800"
+              height="600"
               viewBox="0 0 908 929"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
