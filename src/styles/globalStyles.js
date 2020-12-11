@@ -66,8 +66,8 @@ html {
   }
 
   .logo-image {
-    width: 40%;
-    height: 20%;
+    width: 138px;
+    height: 35px;
   }
 
   .no-mr {
