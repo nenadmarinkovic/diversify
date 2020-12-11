@@ -1,7 +1,7 @@
 import React from "react";
 import { Centered, CenteredText } from "../styles/About";
 import { Wrap, Text, SmallerText, LinkTo } from "../styles/Project";
-import logo from "../../public/logo.png"
+import logo from "../../static/logo.png"
 
 function Project() {
   return (
