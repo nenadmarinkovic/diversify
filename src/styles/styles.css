@@ -41,3 +41,8 @@
     font-family: "Proxima Nova", sans-serif;
     text-decoration: none;
   }
+
+  .logo-image {
+    width: 138px;
+    height: 35px;
+  }
