@@ -118,7 +118,7 @@ export default function ContactForm() {
       .then((response) => {
         handleServerResponse(
           true,
-          "You have successfully made your first move. ✅ We will contact you when a match is found."
+          <span>You have successfully made your first move. <br></br> We will contact you when a match is found.</span>
         );
       })
       .catch((error) => {
