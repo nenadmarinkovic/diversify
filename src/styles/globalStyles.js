@@ -28,6 +28,10 @@ const GlobalStyle = createGlobalStyle`
    
   }
 
+  input:invalid {
+    box-shadow: none;
+}
+
 html {
     margin: 0;
     padding: 0;

@@ -224,7 +224,7 @@ export default function ContactForm() {
               </FormContainer>
               {status.info.error && <Error>Error: {status.info.msg}</Error>}
               {!status.info.error && status.info.msg && (
-                <Message>{status.info.msg}</Message>
+               <Message style={{marginTop: "20px"}}>{status.info.msg}</Message>
               )}
             </MainForm>
             <SVG
