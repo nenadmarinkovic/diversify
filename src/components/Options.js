@@ -320,8 +320,8 @@ function Option() {
           </OptionItem>
 
           <OptionItem
-            onMouseOver={() => setHovered(true)}
-            onMouseLeave={() => setHovered(false)}
+            onMouseOver={() => setHoveredFemale(true)}
+            onMouseLeave={() => setHoveredFemale(false)}
           >
             <Link to="/professionals">
               <Fade bottom delay={800} duration={300}>
