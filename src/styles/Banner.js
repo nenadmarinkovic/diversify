@@ -27,8 +27,6 @@ export const Illustration = styled.div`
 
   @media (max-width: 840px) {
     margin-top: 10px;
-    margin-right: 40px;
-    margin-left: 60px;
     padding-bottom: 40px;
     width: 100%;
   }
