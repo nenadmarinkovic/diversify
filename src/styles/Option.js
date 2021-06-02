@@ -15,11 +15,13 @@ export const FlexContainer = styled.div`
   }
 `;
 
+
+
 export const OptionWrap = styled.div`
   border-radius: 18px;
   border: 1px solid #eaeaea;
   margin: 20px;
-  height: 410px;
+  height: 400px;
   transition: 0.3s;
   text-align: center;
 
@@ -29,8 +31,18 @@ export const OptionWrap = styled.div`
   }
 
   @media (max-width: 840px) {
-    height: 100%;
+    height: 400px;
+   
   }
+
+  @media (max-width: 370px) {
+    height: 470px;
+   
+  }
+`;
+
+export const OptionSVG = styled.svg`
+ margin-top: 50px
 `;
 
 export const CenteredTitle = styled.div`
@@ -38,6 +50,17 @@ export const CenteredTitle = styled.div`
   padding: 30px 10px 10px;
   font-size: 33px;
   font-weight: bold;
+  margin-top: 20px;
+
+  @media (max-width: 1240px) {
+    font-size: 28px;
+  }
+`;
+
+export const CenteredSubtitle = styled.div`
+  text-align: center;
+  padding: 30px 20px 10px;
+  font-size: 23px;
 
   @media (max-width: 1240px) {
     font-size: 28px;

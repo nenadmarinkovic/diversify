@@ -2,13 +2,14 @@ import styled from "styled-components";
 
 export const FlexContainer = styled.main`
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-direction: row-reverse;
   margin-bottom: -120px;
 
   @media (max-width: 960px) {
     flex-direction: column;
     align-items: center;
+    margin-bottom: 0;
   }
 `;
 

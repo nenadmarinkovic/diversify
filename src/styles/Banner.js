@@ -4,7 +4,8 @@ export const BannerContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 100px;
+  padding-top: 120px;
+  margin-bottom: 5px;
 
   @media (max-width: 1240px) {
     margin-bottom: -60px;
@@ -19,23 +20,6 @@ export const BannerContainer = styled.div`
 export const SVG = styled.svg`
   margin-top: 50px;
   width: 100%;
-
-  @media (max-width: 1240px) {
-    margin-top: 30px;
-  }
-
-  @media (max-width: 840px) {
-    margin-top: 60px;
-  }
-
-  @media (max-width: 540px) {
-    margin-top: 20px;
-  }
-
-  @media (max-width: 370px) {
-    padding-bottom: 40px;
-    margin-top: -10px;
-  }
 `;
 
 export const Illustration = styled.div`
@@ -52,6 +36,7 @@ export const Illustration = styled.div`
 
 export const Text = styled.div`
   width: 50%;
+  margin-right: 20px;
 
   @media (max-width: 840px) {
     text-align: center;
