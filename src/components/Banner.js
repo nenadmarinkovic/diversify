@@ -42,7 +42,7 @@ function Banner() {
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <g clip-path="url(#clip0)">
+              <g>
                 <path
                   d="M752 361.508C752 361.508 735.9 368.229 728.8 368.73C721.8 369.232 689.2 382.372 698.3 404.942C707.4 427.511 752 361.508 752 361.508Z"
                   fill="#82BE3C"
