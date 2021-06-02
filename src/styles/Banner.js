@@ -38,6 +38,7 @@ export const Text = styled.div`
 
   @media (max-width: 840px) {
     text-align: center;
+    margin-right: 0;
     width: 100%;
   }
 `;
