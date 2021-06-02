@@ -151,8 +151,7 @@ function Option() {
                   </OptionSVG>
                   <CenteredTitle>Female Professionals</CenteredTitle>
                   <CenteredSubtitle>
-                    You are a female professional looking for more
-                    opportunities.
+                    You are a female professional looking for opportunities.
                   </CenteredSubtitle>
                 </OptionWrap>
               </Fade>
