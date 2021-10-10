@@ -11,7 +11,6 @@ import {
   Error,
   Message,
   FormText,
-  SVG,
   FlexList,
   FlexListText,
 } from "../styles/Form";

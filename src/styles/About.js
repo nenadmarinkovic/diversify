@@ -24,7 +24,7 @@ export const SVGBottom = styled.svg`
 
 export const AboutContainer = styled.div`
   margin-top: -20px;
-  padding-top: 80px;
+  padding-top: 20px;
   padding-bottom: 120px;
  
 

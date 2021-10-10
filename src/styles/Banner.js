@@ -4,8 +4,8 @@ export const BannerContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 120px;
-  margin-bottom: 5px;
+  padding-top: 150px;
+  margin-bottom: 125px;
 
   @media (max-width: 1240px) {
     margin-bottom: -60px;
@@ -16,6 +16,16 @@ export const BannerContainer = styled.div`
     padding-top: 100px;
   }
 `;
+export const BannerImage = styled.img`
+  height: 420px;
+  width: 550px;
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  position: relative;
+  z-index: 2;
+  border-top-right-radius: 0;
+`;
 
 export const SVG = styled.svg`
   margin-top: 50px;
@@ -23,12 +33,12 @@ export const SVG = styled.svg`
 `;
 
 export const Illustration = styled.div`
-  width: 50%;
-
-  @media (max-width: 840px) {
-    margin-top: 10px;
-    padding-bottom: 40px;
-    width: 100%;
+  position: relative;
+  svg {
+    position: absolute;
+    bottom: 125px;
+    right: -48px;
+    width: 120px;
   }
 `;
 

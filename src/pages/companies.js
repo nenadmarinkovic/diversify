@@ -4,7 +4,6 @@ import GlobalStyle from "../styles/globalStyles";
 import HeaderForms from "../components/HeaderForms";
 import Footer from "../components/Footer";
 import FormCompanies from "../components/FormCompanies";
-import styles from "../styles/styles.css";
 
 export default function Home() {
   return (

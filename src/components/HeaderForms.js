@@ -6,7 +6,6 @@ import {
   Logo,
   Circle,
   MenuContainer,
-  MenuItem,
   MenuItemLink,
 } from "../styles/Header";
 

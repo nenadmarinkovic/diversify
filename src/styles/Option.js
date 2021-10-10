@@ -15,17 +15,38 @@ export const FlexContainer = styled.div`
   }
 `;
 
-
-
-export const OptionWrap = styled.div`
+export const OptionWrapCompanies = styled.div`
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url(/companies.jpg);
+  min-height: 555px;
+  background-repeat: no-repeat;
+  background-size: 100% 400px;
+  background-position: center top;
+  position: relative;
   border-radius: 18px;
   border: 1px solid #eaeaea;
   margin: 20px;
-  height: 400px;
-  transition: 0.3s;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  transition: 0.5s;
+  opacity: 0.8;
 
   :hover {
+    opacity: 1;
+    background: url(/companies.jpg);
+    min-height: 555px;
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    background-position: center top;
+  }
+
+  /* :hover {
     box-shadow: 0 10px 30px 0 rgba(0,0,0,.2);
     cursor: pointer;
   }
@@ -38,19 +59,61 @@ export const OptionWrap = styled.div`
   @media (max-width: 370px) {
     height: 470px;
    
+  } */
+`;
+
+export const OptionWrapFemale = styled.div`
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url(/female.jpg);
+  min-height: 555px;
+  background-repeat: no-repeat;
+  background-size: 100% 400px;
+  background-position: center top;
+  position: relative;
+  border-radius: 18px;
+  border: 1px solid #eaeaea;
+  margin: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  transition: 0.5s;
+  opacity: 0.8;
+
+  :hover {
+    opacity: 1;
+    background: url(/female.jpg);
+    min-height: 555px;
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    background-position: center top;
+  }
+
+  @media (max-width: 840px) {
+    height: 400px;
+  }
+
+  @media (max-width: 370px) {
+    height: 470px;
   }
 `;
 
 export const OptionSVG = styled.svg`
- margin-top: 50px
+  margin-top: 50px;
 `;
 
 export const CenteredTitle = styled.div`
   text-align: center;
   padding: 30px 10px 10px;
-  font-size: 33px;
+  font-size: 40px;
   font-weight: bold;
-  margin-top: 20px;
+  margin-top: 140px;
+
+  background: white;
 
   @media (max-width: 1240px) {
     font-size: 28px;
@@ -59,8 +122,10 @@ export const CenteredTitle = styled.div`
 
 export const CenteredSubtitle = styled.div`
   text-align: center;
-  padding: 30px 20px 10px;
+  padding: 0px 10px 35px;
   font-size: 23px;
+  background: white;
+  border-radius: 18px;
 
   @media (max-width: 1240px) {
     font-size: 28px;
