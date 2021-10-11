@@ -9,6 +9,7 @@ export const FlexContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-bottom: 120px;
 
   @media (max-width: 840px) {
     flex-direction: column;
@@ -17,14 +18,13 @@ export const FlexContainer = styled.div`
 
 export const Hover = styled.div`
   position: relative;
-  height: 100%;
+  height: 93%;
 `;
 
 export const OptionWrapCompanies = styled.div`
-  background: url(/comp.jpg);
-  min-height: 470px;
+  background-image: url(/comp.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 470px;
+  background-size: contain;
   border-radius: 18px;
   border: 1px solid #eaeaea;
   transition: 0.5s;
@@ -47,16 +47,20 @@ export const OptionWrapCompanies = styled.div`
 
 export const TextBlock = styled.div`
   position: absolute;
-  bottom: 15px;
-  left: 15px;
-  width: 450px;
+  bottom: -100px;
+  left: 0;
+  width: 99.5%;
+  border: 1px solid #eaeaea;
+  border-top: 0;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
 `;
 
 export const OptionWrapFemale = styled.div`
-  background: url(/female.jpg);
-  min-height: 470px;
+  background-image: url(/female.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 470px;
+  background-size: contain;
+  
   border-radius: 18px;
   border: 1px solid #eaeaea;
   transition: 0.5s;
@@ -82,13 +86,11 @@ export const OptionSVG = styled.svg`
 `;
 
 export const CenteredTitle = styled.div`
-  text-align: start;
+  text-align: center;
   padding: 30px 10px 10px;
   font-size: 38px;
   font-weight: bold;
   background: white;
-  border-top-left-radius: 18px;
-  border-top-right-radius: 18px;
 
   @media (max-width: 1240px) {
     font-size: 28px;
@@ -96,7 +98,7 @@ export const CenteredTitle = styled.div`
 `;
 
 export const CenteredSubtitle = styled.div`
-  text-align: start;
+  text-align: center;
   padding: 0px 10px 35px;
   font-size: 21px;
   background: white;
