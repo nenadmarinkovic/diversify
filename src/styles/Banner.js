@@ -5,7 +5,7 @@ export const BannerContainer = styled.div`
   align-items: center;
   justify-content: space-between;
   padding-top: 155px;
-  margin-bottom: 95px;
+  margin-bottom: 85px;
 
   @media (max-width: 1168px) {
     flex-direction: column;
@@ -21,7 +21,8 @@ export const BannerImage = styled.img`
   height: 100%;
   width: 635px;
   border-radius: 20px;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
   position: relative;
   z-index: 2;
   border-top-right-radius: 0;
