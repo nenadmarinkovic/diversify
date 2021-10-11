@@ -2,6 +2,11 @@ import styled from "styled-components";
 
 export const Wrap = styled.div`
   background: #e8e9e8;
+  margin-top: -10px;
+
+  @media (max-width: 768px) {
+    margin-top: -60px;
+  }
 `;
 
 export const SVGTop = styled.svg`
@@ -22,11 +27,25 @@ export const SVGBottom = styled.svg`
   }
 `;
 
+export const DIV = styled.div`
+  width: 1160px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 10px 15px 0 15px;
+
+  @media (min-width: 1540px) {
+    width: 1200px;
+  }
+`;
+
 export const AboutContainer = styled.div`
   margin-top: -20px;
   padding-top: 20px;
   padding-bottom: 120px;
- 
+
+  @media (max-width: 768px) {
+    padding-top: 120px;
+  }
 
   @media (max-width: 580px) {
     margin-top: -60px;
@@ -73,11 +92,16 @@ export const Centered = styled.div`
   padding-top: 80px;
   padding-bottom: 60px;
   font-size: 16px;
-  color: #ED572F;
+  color: #ed572f;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 1.2px;
+
+  @media (max-width: 1240px) {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 `;
 
 export const BigTitle = styled.div`
@@ -86,7 +110,7 @@ export const BigTitle = styled.div`
   border-radius: 10px;
   font-weight: bold;
   padding: 15px;
-  background: #ED572F;
+  background: #ed572f;
   color: white;
 `;
 

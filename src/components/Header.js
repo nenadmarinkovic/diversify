@@ -16,7 +16,7 @@ import ScrollIntoView from "react-scroll-into-view";
 function Header() {
   return (
     <Wrap>
-      <div className="container">
+      <div className="header-container">
         <FlexContainer>
           <Link to="/">
             <Logo>

@@ -7,15 +7,16 @@ export const BannerContainer = styled.div`
   padding-top: 155px;
   margin-bottom: 95px;
 
-  @media (max-width: 1240px) {
-    margin-bottom: -60px;
-  }
-
-  @media (max-width: 840px) {
+  @media (max-width: 1168px) {
     flex-direction: column;
     padding-top: 100px;
   }
+
+  @media (max-width: 1168px) {
+    margin-bottom: 15px;
+  }
 `;
+
 export const BannerImage = styled.img`
   height: 100%;
   width: 635px;
@@ -25,6 +26,21 @@ export const BannerImage = styled.img`
   z-index: 2;
   border-top-right-radius: 0;
   margin-bottom: 30px;
+
+  @media (max-width: 1340px) {
+    width: 435px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 0;
+  }
+
+  @media (max-width: 1168px) {
+    width: 585px;
+  }
+
+  @media (max-width: 720px) {
+    border-top-left-radius: 18px;
+    width: 100%;
+  }
 `;
 
 export const SVG = styled.svg`
@@ -34,11 +50,32 @@ export const SVG = styled.svg`
 
 export const Illustration = styled.div`
   position: relative;
+
+  @media (max-width: 1168px) {
+    margin-top: 60px;
+  }
+
   svg {
     position: absolute;
     bottom: 160px;
     right: -50px;
     width: 120px;
+
+    @media (max-width: 1340px) {
+      position: absolute;
+      bottom: 30px;
+      left: -50px;
+      width: 120px;
+      transform: rotate(-90deg);
+    }
+
+    @media (max-width: 1168px) {
+      bottom: 130px;
+    }
+
+    @media (max-width: 720px) {
+      display: none;
+    }
   }
 `;
 
@@ -46,6 +83,12 @@ export const Text = styled.div`
   width: 50%;
   margin-right: 20px;
   margin-bottom: 30px;
+
+  @media (max-width: 1168px) {
+    text-align: center;
+    margin-right: 0;
+    width: 100%;
+  }
 
   @media (max-width: 840px) {
     text-align: center;
@@ -66,11 +109,13 @@ export const Button = styled.button`
   transition: 0.3s;
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
   padding: 15px;
+
   :hover {
     cursor: pointer;
     border: 2px solid #ed572f;
     box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
   }
+
   @media (max-width: 1240px) {
     margin-bottom: 30px;
   }

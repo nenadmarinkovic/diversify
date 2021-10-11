@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Wrap = styled.div`
-  height: 70px;
+  height: 80px;
   position: fixed;
   width: 100%;
   margin-top: -10px;
@@ -11,16 +11,12 @@ export const Wrap = styled.div`
 `;
 
 export const FlexContainer = styled.div`
-  padding-top: 25px;
+  padding-top: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   color: black;
-  padding-bottom: 15px;
 
-  // @media (max-width: 1240px) {
-  //   margin-right: 40px;
-  // }
 `;
 
 export const Logo = styled.div`
@@ -43,6 +39,7 @@ export const MenuContainer = styled.div`
   display: flex;
   align-items: center;
 
+
   @media (max-width: 768px) {
     display: none;
   }
@@ -59,6 +56,7 @@ export const MenuItem = styled.div`
   font-size: 16px;
   font-weight: bold;
   transition: 0.3s;
+
   :hover {
     color: #ed572f;
     cursor: pointer;
@@ -70,6 +68,7 @@ export const MenuItemLink = styled.a`
   font-size: 16px;
   font-weight: bold;
   transition: 0.3s;
+
   :hover {
     color: #ed572f;
     cursor: pointer;

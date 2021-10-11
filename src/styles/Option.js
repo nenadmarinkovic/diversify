@@ -10,15 +10,29 @@ export const FlexContainer = styled.div`
   align-items: center;
   justify-content: space-between;
   padding-bottom: 120px;
+  padding-top: 30px;
 
-  @media (max-width: 840px) {
+  @media (max-width: 960px) {
     flex-direction: column;
+    padding-bottom: 0;
   }
 `;
 
 export const Hover = styled.div`
   position: relative;
-  height: 93%;
+  height: 100%;
+
+  @media (max-width: 1260px) {
+    height: 390px;
+  }
+
+  @media (max-width: 768px) {
+    height: 290px;
+  }
+
+  @media (max-width: 668px) {
+    height: 310px;
+  }
 `;
 
 export const OptionWrapCompanies = styled.div`
@@ -43,6 +57,14 @@ export const OptionWrapCompanies = styled.div`
   :hover {
     opacity: 1;
   }
+
+  @media (max-width: 632px) {
+    background-size: cover;
+  }
+
+  @media (max-width: 480px) {
+    background-size: contain;
+  }
 `;
 
 export const TextBlock = styled.div`
@@ -60,7 +82,6 @@ export const OptionWrapFemale = styled.div`
   background-image: url(/female.jpg);
   background-repeat: no-repeat;
   background-size: contain;
-  
   border-radius: 18px;
   border: 1px solid #eaeaea;
   transition: 0.5s;
@@ -79,6 +100,14 @@ export const OptionWrapFemale = styled.div`
   :hover {
     opacity: 1;
   }
+
+  @media (max-width: 632px) {
+    background-size: cover;
+  }
+
+  @media (max-width: 480px) {
+    background-size: contain;
+  }
 `;
 
 export const OptionSVG = styled.svg`
@@ -95,6 +124,10 @@ export const CenteredTitle = styled.div`
   @media (max-width: 1240px) {
     font-size: 28px;
   }
+
+  @media (max-width: 628px) {
+    font-size: 28px;
+  }
 `;
 
 export const CenteredSubtitle = styled.div`
@@ -105,8 +138,8 @@ export const CenteredSubtitle = styled.div`
   border-bottom-left-radius: 18px;
   border-bottom-right-radius: 18px;
 
-  @media (max-width: 1240px) {
-    font-size: 28px;
+  @media (max-width: 628px) {
+    font-size: 18px;
   }
 `;
 
@@ -117,45 +150,16 @@ export const OptionItem = styled.div`
   height: 470px;
   position: relative;
 
-  @media (max-width: 840px) {
+  @media (max-width: 960px) {
+    width: 60%;
+    margin-bottom: 80px;
+  }
+
+  @media (max-width: 628px) {
     width: 100%;
   }
-`;
 
-export const SVG = styled.svg`
-  text-align: center;
-  margin-right: 40px;
-  margin-top: 15px;
-  transition: 0.5s;
-  @media (max-width: 1240px) {
-    width: 90%;
-  }
-
-  @media (max-width: 840px) {
+  /* @media (max-width: 840px) {
     width: 100%;
-    padding-bottom: 30px;
-  }
-
-  @media (max-width: 540px) {
-    width: 70%;
-    padding-bottom: 0;
-    margin-right: 0px;
-  }
-`;
-
-export const SVGStartup = styled.svg`
-  transition: 0.5s;
-  @media (max-width: 1240px) {
-    width: 90%;
-  }
-
-  @media (max-width: 840px) {
-    width: 100%;
-    padding-bottom: 30px;
-  }
-
-  @media (max-width: 540px) {
-    width: 70%;
-    padding-bottom: 0;
-  }
+  } */
 `;

@@ -7,9 +7,11 @@ export const Wrap = styled.div`
 
 export const Text = styled.div`
   padding: 0 280px;
+
   @media (max-width: 1240px) {
-    padding: 30px 80px;
+    padding: 0px 80px;
   }
+
   @media (max-width: 840px) {
     padding: 10px 10px 80px 10px;
   }

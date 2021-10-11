@@ -14,6 +14,7 @@ export const CenteredFooter = styled.div`
 export const Wrap = styled.div`
   background-color: #e8e9e8;
   text-align: center;
+  margin-top: -10px;
 `;
 
 export const Created = styled.div`

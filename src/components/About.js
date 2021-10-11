@@ -28,7 +28,7 @@ function About() {
         ></path>
       </SVGTop>
       <Wrap>
-        <div className="container">
+        <div className="about-container">
           <AboutContainer>
             <CenteredText>
               We focus on enabling company advisory to board-level part-time
@@ -100,7 +100,7 @@ function About() {
               <Female>
                 <Fade bottom delay={800} duration={400}>
                   <BigTitle className="small-resolution-margin">
-                    Female professionals
+                    Female Professionals
                   </BigTitle>
 
                   <Title>

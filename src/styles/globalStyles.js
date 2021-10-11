@@ -36,13 +36,14 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
+    height: 100%;
     font-family: 'Proxima Nova', serif;
 }
+
   body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+  
   }
 
   h1, h3, h6 {
@@ -56,10 +57,36 @@ html {
   }
 
   .container {
-    width: 1200px;
-    max-width: 100%;
-    margin: 0px auto;
-    padding: 0 20px;
+    width: 1160px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 10px 15px 0 15px;
+
+    @media (min-width: 1540px) {
+      width: 1200px;
+    }
+  }
+
+  .about-container {
+    width: 1160px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 10px 15px 0 15px;
+
+    @media (min-width: 1540px) {
+      width: 1200px;
+    }
+  }
+
+  .header-container {
+    width: 1160px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 10px 15px 0 15px;
+
+    @media (min-width: 1540px) {
+      width: 1200px;
+    }
   }
 
   .container-form {
@@ -84,8 +111,6 @@ html {
       margin-top: 30px;
      }
   }
-
-
 
   .no-ml {
     margin-left: 0 !important;
@@ -114,7 +139,6 @@ html {
   }
 
   .container-full {
-  
     max-width: 100%;
     margin: 0px auto;
   }
@@ -133,17 +157,14 @@ html {
     transform: translate(-.4cm);
     transition: all 1.5s;
     -webkit-transition: all 1.5s;
-   
   }
 
   .moveTwo{
     animation-direction:alternate;
     transform: translateY(-.4cm);
     transition: all 1.5s;
-    -webkit-transition: all 1.5s;
-   
+   -webkit-transition: all 1.5s; 
   }
-
 
   .moveThree { 
     animation-direction:alternate;

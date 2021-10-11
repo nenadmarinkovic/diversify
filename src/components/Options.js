@@ -10,7 +10,6 @@ import {
   TextBlock,
   Hover,
 } from "../styles/Option";
-import Fade from "react-reveal/Fade";
 import { Link } from "gatsby";
 import { Centered, CenteredText, SubText } from "../styles/About";
 
@@ -46,7 +45,7 @@ function Option() {
                 <TextBlock>
                   <CenteredTitle>Female professionals</CenteredTitle>
                   <CenteredSubtitle>
-                    You are a company looking for female professionals.
+                    You are a female professional looking for opportunities.
                   </CenteredSubtitle>
                 </TextBlock>
               </Hover>
