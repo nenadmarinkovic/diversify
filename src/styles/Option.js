@@ -34,10 +34,11 @@ export const OptionWrapCompanies = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: end;
-  transition: 0.5s;
   opacity: 0.8;
+  transition: opacity 1s ease-out;
 
   :hover {
+    transition: 1s;
     opacity: 1;
     background: url(/companies.jpg);
     min-height: 555px;
@@ -81,10 +82,11 @@ export const OptionWrapFemale = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: end;
-  transition: 0.5s;
   opacity: 0.8;
+  transition: opacity 1s ease-out;
 
   :hover {
+    transition: 1s;
     opacity: 1;
     background: url(/female.jpg);
     min-height: 555px;
@@ -105,6 +107,11 @@ export const OptionWrapFemale = styled.div`
 export const OptionSVG = styled.svg`
   margin-top: 50px;
 `;
+
+// export const BottomText = styled.div`
+//   position: absolute;
+//   bottom: 0;
+// `;
 
 export const CenteredTitle = styled.div`
   text-align: center;
@@ -134,7 +141,8 @@ export const CenteredSubtitle = styled.div`
 
 export const OptionItem = styled.div`
   width: 50%;
-  transition: 0.5s;
+  transition: 1s;
+  position: relative;
   @media (max-width: 840px) {
     width: 100%;
   }
@@ -144,7 +152,7 @@ export const SVG = styled.svg`
   text-align: center;
   margin-right: 40px;
   margin-top: 15px;
-  transition: 0.5s;
+  transition: 1s;
   @media (max-width: 1240px) {
     width: 90%;
   }
@@ -162,7 +170,7 @@ export const SVG = styled.svg`
 `;
 
 export const SVGStartup = styled.svg`
-  transition: 0.5s;
+  transition: 1s;
   @media (max-width: 1240px) {
     width: 90%;
   }

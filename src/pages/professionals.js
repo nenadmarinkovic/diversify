@@ -8,7 +8,7 @@ import Form from "../components/Form";
 export default function Home() {
   return (
     <>
-      <Title>For Female Professionals</Title>
+      <Title>For Female professionals</Title>
       <Meta name="description" content="Diversify" />
       <GlobalStyle />
       <HeaderForms />

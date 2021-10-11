@@ -7,6 +7,7 @@ import {
   CenteredSubtitle,
   OptionWrapFemale,
   OptionWrapCompanies,
+  
 } from "../styles/Option";
 import Fade from "react-reveal/Fade";
 import { Link } from "gatsby";
@@ -40,10 +41,12 @@ function Option() {
             <Link to="/professionals">
               <Fade bottom delay={800} duration={300}>
                 <OptionWrapFemale className="no-mr">
-                  <CenteredTitle>Female Professionals</CenteredTitle>
-                  <CenteredSubtitle>
-                    You are a female professional looking for opportunities.
-                  </CenteredSubtitle>
+               
+                    <CenteredTitle>Female professionals</CenteredTitle>
+                    <CenteredSubtitle>
+                      You are a female professional looking for opportunities.
+                    </CenteredSubtitle>
+                 
                 </OptionWrapFemale>
               </Fade>
             </Link>

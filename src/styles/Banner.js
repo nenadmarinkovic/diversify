@@ -4,7 +4,7 @@ export const BannerContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 150px;
+  padding-top: 190px;
   margin-bottom: 125px;
 
   @media (max-width: 1240px) {
@@ -17,14 +17,15 @@ export const BannerContainer = styled.div`
   }
 `;
 export const BannerImage = styled.img`
-  height: 420px;
-  width: 550px;
+  height: 100%;
+  width: 585px;
   border-radius: 20px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
   position: relative;
   z-index: 2;
   border-top-right-radius: 0;
+  margin-bottom: 30px;
 `;
 
 export const SVG = styled.svg`
@@ -45,6 +46,7 @@ export const Illustration = styled.div`
 export const Text = styled.div`
   width: 50%;
   margin-right: 20px;
+  margin-bottom: 30px;
 
   @media (max-width: 840px) {
     text-align: center;
