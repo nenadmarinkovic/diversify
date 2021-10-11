@@ -22,6 +22,10 @@ export const Hover = styled.div`
   position: relative;
   height: 100%;
 
+  @media (max-width: 1480px) {
+    height: 90%;
+  }
+
   @media (max-width: 1260px) {
     height: 390px;
   }
