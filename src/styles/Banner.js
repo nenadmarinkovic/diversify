@@ -36,9 +36,9 @@ export const Illustration = styled.div`
   position: relative;
   svg {
     position: absolute;
-bottom: 160px;
-right: -50px;
-width: 120px;
+    bottom: 160px;
+    right: -50px;
+    width: 120px;
   }
 `;
 

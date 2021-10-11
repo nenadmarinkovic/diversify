@@ -15,55 +15,65 @@ export const FlexContainer = styled.div`
   }
 `;
 
-export const OptionWrapCompanies = styled.div`
-  background: url(/companies.jpg);
-  min-height: 555px;
-  background-repeat: no-repeat;
-  background-size: 100% 400px;
-  background-position: center top;
+export const Hover = styled.div`
   position: relative;
+  height: 100%;
+`;
+
+export const OptionWrapCompanies = styled.div`
+  background: url(/comp.jpg);
+  min-height: 470px;
+  background-repeat: no-repeat;
+  background-size: 100% 470px;
   border-radius: 18px;
   border: 1px solid #eaeaea;
-  margin: 20px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: end;
   transition: 0.5s;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.5;
 
-  :hover {
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  ${Hover}:hover & {
+    opacity: 1;
   }
 
+  :hover {
+    opacity: 1;
+  }
+`;
+
+export const TextBlock = styled.div`
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  width: 450px;
 `;
 
 export const OptionWrapFemale = styled.div`
   background: url(/female.jpg);
-  min-height: 555px;
+  min-height: 470px;
   background-repeat: no-repeat;
-  background-size: 100% 400px;
-  background-position: center top;
-  position: relative;
+  background-size: 100% 470px;
   border-radius: 18px;
   border: 1px solid #eaeaea;
-  margin: 20px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: end;
   transition: 0.5s;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.5;
+
+  ${Hover}:hover & {
+    opacity: 1;
+  }
+
   :hover {
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  }
-
-  @media (max-width: 840px) {
-    height: 400px;
-  }
-
-  @media (max-width: 370px) {
-    height: 470px;
+    opacity: 1;
   }
 `;
 
@@ -71,19 +81,14 @@ export const OptionSVG = styled.svg`
   margin-top: 50px;
 `;
 
-// export const BottomText = styled.div`
-//   position: absolute;
-//   bottom: 0;
-// `;
-
 export const CenteredTitle = styled.div`
-  text-align: center;
+  text-align: start;
   padding: 30px 10px 10px;
-  font-size: 40px;
+  font-size: 38px;
   font-weight: bold;
-  margin-top: 140px;
-
   background: white;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
 
   @media (max-width: 1240px) {
     font-size: 28px;
@@ -91,11 +96,12 @@ export const CenteredTitle = styled.div`
 `;
 
 export const CenteredSubtitle = styled.div`
-  text-align: center;
+  text-align: start;
   padding: 0px 10px 35px;
-  font-size: 23px;
+  font-size: 21px;
   background: white;
-  border-radius: 18px;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
 
   @media (max-width: 1240px) {
     font-size: 28px;
@@ -103,9 +109,12 @@ export const CenteredSubtitle = styled.div`
 `;
 
 export const OptionItem = styled.div`
-  width: 50%;
+  width: 48.5%;
   transition: 0.5s;
+  z-index: 1;
+  height: 470px;
   position: relative;
+
   @media (max-width: 840px) {
     width: 100%;
   }

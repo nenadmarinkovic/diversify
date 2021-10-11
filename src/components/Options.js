@@ -7,7 +7,8 @@ import {
   CenteredSubtitle,
   OptionWrapFemale,
   OptionWrapCompanies,
-  
+  TextBlock,
+  Hover,
 } from "../styles/Option";
 import Fade from "react-reveal/Fade";
 import { Link } from "gatsby";
@@ -26,29 +27,29 @@ function Option() {
         <FlexContainer>
           <OptionItem>
             <Link to="/companies">
-              <Fade bottom delay={400} duration={300}>
-                <OptionWrapCompanies className="no-ml">
+              <Hover>
+                <OptionWrapCompanies className="no-ml"></OptionWrapCompanies>
+                <TextBlock>
                   <CenteredTitle>Companies</CenteredTitle>
                   <CenteredSubtitle>
                     You are a company looking for female professionals.
                   </CenteredSubtitle>
-                </OptionWrapCompanies>
-              </Fade>
+                </TextBlock>
+              </Hover>
             </Link>
           </OptionItem>
 
           <OptionItem>
-            <Link to="/professionals">
-              <Fade bottom delay={800} duration={300}>
-                <OptionWrapFemale className="no-mr">
-               
-                    <CenteredTitle>Female professionals</CenteredTitle>
-                    <CenteredSubtitle>
-                      You are a female professional looking for opportunities.
-                    </CenteredSubtitle>
-                 
-                </OptionWrapFemale>
-              </Fade>
+            <Link to="/companies">
+              <Hover>
+                <OptionWrapFemale className="no-mr"></OptionWrapFemale>
+                <TextBlock>
+                  <CenteredTitle>Female professionals</CenteredTitle>
+                  <CenteredSubtitle>
+                    You are a company looking for female professionals.
+                  </CenteredSubtitle>
+                </TextBlock>
+              </Hover>
             </Link>
           </OptionItem>
         </FlexContainer>
