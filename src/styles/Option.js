@@ -16,11 +16,7 @@ export const FlexContainer = styled.div`
 `;
 
 export const OptionWrapCompanies = styled.div`
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
-    ),
-    url(/companies.jpg);
+  background: url(/companies.jpg);
   min-height: 555px;
   background-repeat: no-repeat;
   background-size: 100% 400px;
@@ -34,41 +30,16 @@ export const OptionWrapCompanies = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: end;
-  opacity: 0.8;
-  transition: opacity 1s ease-out;
+  transition: 0.5s;
 
   :hover {
-    transition: 1s;
-    opacity: 1;
-    background: url(/companies.jpg);
-    min-height: 555px;
-    background-repeat: no-repeat;
-    background-size: 100% 400px;
-    background-position: center top;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   }
 
-  /* :hover {
-    box-shadow: 0 10px 30px 0 rgba(0,0,0,.2);
-    cursor: pointer;
-  }
-
-  @media (max-width: 840px) {
-    height: 400px;
-   
-  }
-
-  @media (max-width: 370px) {
-    height: 470px;
-   
-  } */
 `;
 
 export const OptionWrapFemale = styled.div`
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
-    ),
-    url(/female.jpg);
+  background: url(/female.jpg);
   min-height: 555px;
   background-repeat: no-repeat;
   background-size: 100% 400px;
@@ -82,17 +53,9 @@ export const OptionWrapFemale = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: end;
-  opacity: 0.8;
-  transition: opacity 1s ease-out;
-
+  transition: 0.5s;
   :hover {
-    transition: 1s;
-    opacity: 1;
-    background: url(/female.jpg);
-    min-height: 555px;
-    background-repeat: no-repeat;
-    background-size: 100% 400px;
-    background-position: center top;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   }
 
   @media (max-width: 840px) {
@@ -141,7 +104,7 @@ export const CenteredSubtitle = styled.div`
 
 export const OptionItem = styled.div`
   width: 50%;
-  transition: 1s;
+  transition: 0.5s;
   position: relative;
   @media (max-width: 840px) {
     width: 100%;
@@ -152,7 +115,7 @@ export const SVG = styled.svg`
   text-align: center;
   margin-right: 40px;
   margin-top: 15px;
-  transition: 1s;
+  transition: 0.5s;
   @media (max-width: 1240px) {
     width: 90%;
   }
@@ -170,7 +133,7 @@ export const SVG = styled.svg`
 `;
 
 export const SVGStartup = styled.svg`
-  transition: 1s;
+  transition: 0.5s;
   @media (max-width: 1240px) {
     width: 90%;
   }

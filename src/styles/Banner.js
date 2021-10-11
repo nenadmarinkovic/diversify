@@ -4,8 +4,8 @@ export const BannerContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 190px;
-  margin-bottom: 125px;
+  padding-top: 155px;
+  margin-bottom: 95px;
 
   @media (max-width: 1240px) {
     margin-bottom: -60px;
@@ -18,10 +18,9 @@ export const BannerContainer = styled.div`
 `;
 export const BannerImage = styled.img`
   height: 100%;
-  width: 585px;
+  width: 635px;
   border-radius: 20px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
-    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   position: relative;
   z-index: 2;
   border-top-right-radius: 0;
@@ -37,9 +36,9 @@ export const Illustration = styled.div`
   position: relative;
   svg {
     position: absolute;
-    bottom: 125px;
-    right: -48px;
-    width: 120px;
+bottom: 160px;
+right: -50px;
+width: 120px;
   }
 `;
 
@@ -62,7 +61,7 @@ export const Button = styled.button`
   border-radius: 5px;
   font-weight: bold;
   color: white;
-  margin-top: 35px;
+  margin-top: 20px;
   text-transform: uppercase;
   transition: 0.3s;
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
