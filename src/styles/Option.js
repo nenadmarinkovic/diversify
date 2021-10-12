@@ -156,14 +156,11 @@ export const OptionItem = styled.div`
 
   @media (max-width: 960px) {
     width: 60%;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
   }
 
   @media (max-width: 628px) {
     width: 100%;
+    margin-bottom: 20px;
   }
-
-  /* @media (max-width: 840px) {
-    width: 100%;
-  } */
 `;

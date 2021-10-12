@@ -17,6 +17,7 @@ export const FormText = styled.div`
   font-size: 32px;
   text-align: center;
   line-height: 1.5;
+  width: 90%;
 
   @media (max-width: 768px) {
     font-size: 23px;
