@@ -11,7 +11,7 @@ function Clients() {
   return (
     <>
       <div className="container">
-      <Centered id="benefits">We work with:</Centered>
+      <Centered>We work with:</Centered>
         <ClientsContainer>
           <LogoImage src={logo01} alt="Logo" />
           <LogoImage src={logo02} alt="Logo" />

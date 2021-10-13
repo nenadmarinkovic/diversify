@@ -1,0 +1,1 @@
+require("/Users/nenad/Development/diversify/node_modules/gatsby/dist/utils/telemetry-server.js").default(50657)
