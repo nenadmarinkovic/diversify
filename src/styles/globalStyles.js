@@ -144,7 +144,7 @@ html {
   }
 
   a {
-    color: black;
+    color: #363636;
     text-decoration: none;
     transition: .3s;
     :hover {
@@ -221,7 +221,7 @@ html {
 
 /* Color/shape of close button cross */
 .bm-cross {
-  background: black;
+  background: #363636;
 }
 
 /*
@@ -251,7 +251,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* Wrapper for item list */
 .bm-item-list {
-  color: black;
+  color: #363636;
   padding: 0.1em;
 }
 

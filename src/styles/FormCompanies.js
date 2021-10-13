@@ -89,7 +89,7 @@ export const FormInput = styled.input`
   font-size: 1rem;
   font-family: inherit;
   border: none;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #363636;
 
   :focus {
     outline: none;
@@ -109,7 +109,7 @@ export const TextArea = styled.textarea`
   font-family: inherit;
   transition: all 0.2s ease;
   height: 180px;
-  border: 2px solid black;
+  border: 2px solid #363636;
   :focus {
     outline: none;
     box-shadow: 0 0 0 3px rgba(21, 156, 228, 0.4);

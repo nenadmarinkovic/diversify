@@ -8,6 +8,7 @@ import Options from "../components/Options";
 import Footer from "../components/Footer";
 import Project from "../components/Project";
 
+
 export default function Home() {
   return (
     <>
@@ -17,6 +18,7 @@ export default function Home() {
       <GlobalStyle />
       <Header />
       <Banner />
+     
       <About />
       <Options />
       <Project />

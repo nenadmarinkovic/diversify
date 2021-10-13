@@ -24,6 +24,7 @@ export const SmallerText = styled.div`
   margin-top: 10px;
   line-height: 1.6;
   margin-right: 80px;
+  color: #363636;
 
   @media (max-width: 840px) {
     margin-left: 20px;
@@ -32,6 +33,6 @@ export const SmallerText = styled.div`
 `;
 
 export const LinkTo = styled.a`
-  color: black;
+  color: #363636;
   text-decoration: none;
 `;

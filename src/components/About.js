@@ -16,10 +16,12 @@ import {
   BigTitle,
 } from "../styles/About";
 import Fade from "react-reveal/Fade";
+import Clients from "../components/Clients";
 
 function About() {
   return (
     <>
+     
       <SVGTop xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#E8E9E8"
@@ -29,6 +31,7 @@ function About() {
       </SVGTop>
       <Wrap>
         <div className="about-container">
+        <Clients/>
           <AboutContainer>
             <CenteredText>
               We focus on enabling company advisory to board-level part-time

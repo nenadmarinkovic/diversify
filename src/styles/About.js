@@ -58,7 +58,7 @@ export const CenteredText = styled.div`
   text-align: center;
   font-size: 32px;
   font-weight: bold;
-  color: black;
+  color: #363636;
 
   @media (max-width: 840px) {
     font-size: 28px;
@@ -134,6 +134,7 @@ export const Title = styled.div`
   margin-top: 35px;
   display: flex;
   align-items: center;
+  color: #363636;
 `;
 
 export const Paragraph = styled.div`

@@ -125,6 +125,7 @@ export const Button = styled.button`
 export const MainText = styled.div`
   font-size: 42px;
   font-weight: bold;
+  color: #363636;
 
   @media (max-width: 960px) {
     font-size: 34px;
@@ -144,6 +145,7 @@ export const SubText = styled.div`
   margin-top: 10px;
   line-height: 1.8;
   margin-top: 15px;
+  color: #363636;
 
   @media (max-width: 840px) {
     text-align: center;
