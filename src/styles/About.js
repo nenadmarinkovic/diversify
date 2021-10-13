@@ -43,10 +43,6 @@ export const AboutContainer = styled.div`
   padding-top: 20px;
   padding-bottom: 120px;
 
-  @media (max-width: 768px) {
-    padding-top: 120px;
-  }
-
   @media (max-width: 580px) {
     margin-top: -60px;
     padding-bottom: 0;

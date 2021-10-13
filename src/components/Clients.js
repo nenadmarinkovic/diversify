@@ -1,5 +1,5 @@
 import React from "react";
-import { ClientsContainer, LogoImage } from "../styles/Clients";
+import { ClientsContainer, LogoImage, Centered } from "../styles/Clients";
 
 import logo01 from "../assets/logo-01.svg";
 import logo02 from "../assets/logo-02.svg";
@@ -11,6 +11,7 @@ function Clients() {
   return (
     <>
       <div className="container">
+      <Centered id="benefits">We work with:</Centered>
         <ClientsContainer>
           <LogoImage src={logo01} alt="Logo" />
           <LogoImage src={logo02} alt="Logo" />
