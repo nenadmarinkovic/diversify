@@ -103,7 +103,7 @@ function About() {
               <Female>
                 <Fade bottom delay={800} duration={400}>
                   <BigTitle className="small-resolution-margin">
-                    Female Professionals
+                    Female professionals
                   </BigTitle>
 
                   <Title>
