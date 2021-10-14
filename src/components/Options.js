@@ -39,7 +39,7 @@ function Option() {
           </OptionItem>
 
           <OptionItem>
-            <Link to="/companies">
+            <Link to="/professionals">
               <Hover>
                 <OptionWrapFemale className="no-mr"></OptionWrapFemale>
                 <TextBlock>
