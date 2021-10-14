@@ -1,3 +1,3 @@
-<h1 align="left">
-Diversify 🚀
-</h1>
+<h3 align="left">
+Diversify
+</h3>
