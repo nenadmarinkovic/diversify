@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Wrap = styled.div`
   background: #e8e9e8;
-  margin-top: -10px;
+  margin-top: -90px;
 
   @media (max-width: 768px) {
     margin-top: -60px;
