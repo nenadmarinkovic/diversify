@@ -41,7 +41,7 @@ export const LogoImage = styled.img`
 
 export const Centered = styled.div`
   padding-top: 10px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
   font-size: 16px;
   color: #ed572f;
   font-weight: bold;
